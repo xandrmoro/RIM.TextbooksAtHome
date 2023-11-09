@@ -8,12 +8,20 @@
     </supportedVersions>
 
     <description>
-    It lets you write your own textbooks using the writer tables from Vanilla Books Expanded if you have a pawn with the corresponding proficiency. That simple.
+It lets you write your own textbooks from Life Lessons using the writer tables from Vanilla Books Expanded if you have a pawn with the corresponding proficiency. That simple.
 
-    I might or might not add the RimWriter support later.
+I might or might not add the RimWriter support later.
+
+[url=github.com/xandrmoro/RIM.TextbooksAtHome]Github[/url]
     </description>
 
     <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
         <li>
             <packageId>VanillaExpanded.VBooksE</packageId>
             <displayName>Vanilla Books Expanded</displayName>
